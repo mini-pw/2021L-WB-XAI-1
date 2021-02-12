@@ -7,7 +7,7 @@ Warszataty Badawcze składają się z:
  - [zajęć laboratoryjnych]()
  - [zajęć projektowych]()
 
-#### Terminy i tematy zajęć 
+### Terminy i tematy zajęć 
 
 2021-02-26
 - *projekt*:  Jak będzie wyglądał projekt, nad czym będziemy pracować i jaki będzie efekt końcowy? Organizacja pracy.
@@ -31,7 +31,7 @@ Kolejne terminy oraz tematy zostaną dodane później.
 
 
 
-#### Schemat oceniania (suma 100 pkt):
+### Schemat oceniania (suma 100 pkt):
 
 -   raport końcowy - 40 pkt.
 	- wstęp, motywacja [0-8 punktów]
@@ -54,7 +54,7 @@ Kolejne terminy oraz tematy zostaną dodane później.
 | Punkty   | (50, 60] | (60, 70] | (70, 80] | (80, 90] | (90, ∞) |
 
 
-#### Literatura
+### Literatura
 
 - [Explanatory Model Analysis. Explore, Explain and Examine Predictive Models](https://pbiecek.github.io/ema/)
 - [Interpretable Machine Learning. A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)
