@@ -5,7 +5,7 @@ Prace domowe należy zgłaszać przez Pull Request o tytule `Nazwisko Imię PDX`
 
 #### Praca domowa 1 (8 pkt.)  
 *Termin:* 18.03.2021   
-*Zadanie:* (link)[https://github.com/mini-pw/2021L-WB-XAI-1/issues/7]
+*Zadanie:* [link](https://github.com/mini-pw/2021L-WB-XAI-1/issues/7)
 #### Praca domowa 2 (8 pkt.)  
 *Termin:* ...  
 *Zadanie:* ...
