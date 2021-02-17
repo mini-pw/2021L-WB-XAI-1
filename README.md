@@ -121,7 +121,7 @@ Warszataty Badawcze składają się z:
     <td></td>
     <td>2021-05-23 </td>
     <td colspan="2"> Wstępne oddanie projektów - dla chętnych.  </td>
-    <td colspan="2"> 20 pkt.</td>
+    <td colspan="2"> </td>
   </tr>
   <tr>
     <td>14</td>
