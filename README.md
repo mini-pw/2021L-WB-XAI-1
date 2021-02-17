@@ -9,26 +9,140 @@ Warszataty Badawcze składają się z:
 
 ### Terminy i tematy zajęć 
 
-| ZAJĘCIA |DATA	|LABORATORIUM|PROJEKT|PUNKTY|
-|--|--|--|--|--|
-| 1 |2021-02-26|eXplainable Artificial Intelligence (XAI) - wstęp, czyli co to takiego?|Jak będzie wyglądał projekt, nad czym będziemy pracować i jaki będzie efekt końcowy? Organizacja pracy.||
-| 2 |2021-03-04|Praktyczny wstęp do Machine Learning.|Teoretyczny wstęp do Machine Learning.||
-| 3 |2021-03-11|Metoda Break Down oraz Shapley values.|Omówienie tematów projektów.||
-| 4 |2021-03-18|Omówienie pracy domowej 1.|Planowanie pracy nad projektem, jak efektywnie pracować w grupie, podział zadań i sposób weryfikacji rezultatów.|PD1 - 8 pkt|
-| 5 |2021-03-25|Metoda LIME.|Prezentacja wybranych tematów projektów.||
-| 6 |2021-04-01|Omówienie pracy domowej 2.|Tytuł, wstęp i literatura - czyli jak zacząć pisać raport końcowy.|PD2 - 8 pkt|
-| 7 |2021-04-08|Profile Ceteris Paribus.|Jak działa `bookdown`? - czyli tworzymy szablon swojego raportu końcowego.||
-| 8 |2021-04-15|Omówienie pracy domowej 3.|Jak opracowywać wyniki otrzymanych wyjaśnień?|PD3 - 8 pkt|
-| 9 |2021-04-22|Permutacyjna ważność zmiennych.|Wyjaśnienia lokalne - prezentacje postępów nad projektem oraz dyskusja.||
-| 10 |2021-04-29|Omówienie pracy domowej 4.|Jak przygotować dobrą prezentację z wynikami projektu?|PD4 - 8 pkt|
-| 11 |2021-05-06|Profile PD i ALE.|Jak napisać dobre podsumowanie raportu?||
-| 12 |2021-05-13|Omówienie pracy domowej 5.|Wyjaśnienia globalne - prezentacje postępów nad projektem oraz dyskusja.|PD5 - 8 pkt|
-| 13 |2021-05-20|Eksploracja modeli - interaktywna (idea modelStudio, arena)|Konsultacje przed prezentacją końcową.||
-|| 2021-05-21 <td colspan=2 > Prezentacja projektu podczas wykładu. </td> |20 pkt|
-|| 2021-05-23 <td colspan=2 > Wstępne oddanie projektów - dla chętnych. </td> |20 pkt|
-| 14 |2021-05-27|Dyskusja na temat projektów - podsumowanie/uwagi/co możemy poprawić, aby nasz raport był jeszcze lepszy?|||
-|| 2021-06-04 <td colspan=2 > Oddanie projektu.</td> |20 pkt|
-| 15 |2021-06-10|Podsumowanie projektu/konsultacje.||
+<table>
+<thead>
+  <tr>
+    <th>ZAJĘCIA</th>
+    <th>DATA</th>
+    <th>LABORATORIUM</th>
+    <th>PROJEKT</th>
+    <th colspan="2">PUNKTY</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>2021-02-26</td>
+    <td>eXplainable Artificial Intelligence (XAI) - wstęp, czyli co to takiego?</td>
+    <td>Jak będzie wyglądał projekt, nad czym będziemy pracować i jaki będzie efekt końcowy? Organizacja pracy.</td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>2021-03-04</td>
+    <td>Praktyczny wstęp do Machine Learning.</td>
+    <td>Teoretyczny wstęp do Machine Learning.</td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>2021-03-11</td>
+    <td>Metoda Break Down oraz Shapley values.</td>
+    <td>Omówienie tematów projektów.</td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>2021-03-18</td>
+    <td>Omówienie pracy domowej 1.</td>
+    <td>Planowanie pracy nad projektem, jak efektywnie pracować w grupie, podział zadań i sposób weryfikacji rezultatów.</td>
+    <td colspan="2">PD1 - 8 pkt.</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>2021-03-25</td>
+    <td>Metoda LIME.</td>
+    <td>Prezentacja wybranych tematów projektów.</td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>2021-04-01</td>
+    <td>Omówienie pracy domowej 2.</td>
+    <td>Tytuł, wstęp i literatura - czyli jak zacząć pisać raport końcowy.</td>
+    <td colspan="2">PD2 - 8 pkt.</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>2021-04-08</td>
+    <td>Profile Ceteris Paribus.</td>
+    <td>Jak działa `bookdown`? - czyli tworzymy szablon swojego raportu końcowego.</td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>2021-04-15</td>
+    <td>Omówienie pracy domowej 3.</td>
+    <td>Jak opracowywać wyniki otrzymanych wyjaśnień?</td>
+    <td colspan="2">PD3 - 8 pkt.</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>2021-04-22</td>
+    <td>Permutacyjna ważność zmiennych.</td>
+    <td>Wyjaśnienia lokalne - prezentacje postępów nad projektem oraz dyskusja.</td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>2021-04-29</td>
+    <td>Omówienie pracy domowej 4.</td>
+    <td>Jak przygotować dobrą prezentację z wynikami projektu?</td>
+    <td colspan="2">PD4 - 8 pkt.</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>2021-05-06</td>
+    <td>Profile PD i ALE.</td>
+    <td>Jak napisać dobre podsumowanie raportu?</td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>2021-05-13</td>
+    <td>Omówienie pracy domowej 5.</td>
+    <td>Wyjaśnienia globalne - prezentacje postępów nad projektem oraz dyskusja.</td>
+    <td colspan="2">PD5 - 8 pkt.</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>2021-05-20</td>
+    <td>Eksploracja modeli - interaktywna (idea modelStudio, arena)</td>
+    <td>Konsultacje przed prezentacją końcową.</td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>2021-05-21 </td>
+    <td colspan="2"> Prezentacja projektu podczas wykładu.  </td>
+    <td colspan="2">20 pkt.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>2021-05-23 </td>
+    <td colspan="2"> Wstępne oddanie projektów - dla chętnych.  </td>
+    <td colspan="2"> 20 pkt.</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>2021-05-27</td>
+    <td colspan="2">Dyskusja na temat projektów - podsumowanie/uwagi/co możemy poprawić, aby nasz raport był jeszcze lepszy?</td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>2021-06-04 </td>
+    <td colspan="2"> Oddanie projektu.</td>
+    <td colspan="2">40 pkt.</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>2021-06-10</td>
+    <td colspan="2">Podsumowanie projektu/konsultacje.</td>
+    <td colspan="2"></td>
+  </tr>
+</tbody>
+</table>
 
 
 ### Schemat oceniania (suma 100 pkt):
