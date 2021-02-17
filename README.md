@@ -24,10 +24,10 @@ Warszataty Badawcze składają się z:
 | 11 |2021-05-06|Profile PD i ALE.|Jak napisać dobre podsumowanie raportu?||
 | 12 |2021-05-13|Omówienie pracy domowej 5.|Wyjaśnienia globalne - prezentacje postępów nad projektem oraz dyskusja.|PD5 - 8 pkt|
 | 13 |2021-05-20|Eksploracja modeli - interaktywna (idea modelStudio, arena)|Konsultacje przed prezentacją końcową.||
-|| 2021-05-21 <td colspan=2 > Prezentacja projektu podczas wykładu.  |20 pkt|
-|| 2021-05-23 <td colspan=2 > Wstępne oddanie projektów - dla chętnych.  |20 pkt|
+|| 2021-05-21 <td colspan=2 > Prezentacja projektu podczas wykładu. </td> |20 pkt|
+|| 2021-05-23 <td colspan=2 > Wstępne oddanie projektów - dla chętnych. </td> |20 pkt|
 | 14 |2021-05-27|Dyskusja na temat projektów - podsumowanie/uwagi/co możemy poprawić, aby nasz raport był jeszcze lepszy?|||
-|| 2021-06-04 <td colspan=2 > Oddanie projektu. |20 pkt|
+|| 2021-06-04 <td colspan=2 > Oddanie projektu.</td> |20 pkt|
 | 15 |2021-06-10|Podsumowanie projektu/konsultacje.||
 
 
