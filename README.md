@@ -4,8 +4,8 @@ Celem warsztatów jest poznanie sposobów komunikacji naukowej (artykuły, czaso
 
 Warszataty Badawcze składają się z:
  - [wykładu](https://github.com/mini-pw/2021L-WarsztatyBadawcze)
- - [zajęć laboratoryjnych]()
- - [zajęć projektowych]()
+ - [zajęć laboratoryjnych](https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Laboratoria)
+ - [zajęć projektowych](https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Projekt)
 
 ### Terminy i tematy zajęć 
 
@@ -23,8 +23,8 @@ Warszataty Badawcze składają się z:
   <tr>
     <td>1</td>
     <td>2021-02-26</td>
-    <td>eXplainable Artificial Intelligence (XAI) - wstęp, czyli co to takiego?</td>
-    <td>Jak będzie wyglądał projekt, nad czym będziemy pracować i jaki będzie efekt końcowy? Organizacja pracy.</td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/blob/main/Laboratoria/eXplainable%20Artificial%20Intelligence%20(XAI)%20-%20wst%C4%99p%2C%20czyli%20co%20to%20takiego.pdf" target="_blank" rel="noopener noreferrer"> eXplainable Artificial Intelligence (XAI) - wstęp, czyli co to takiego?</a></td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/blob/main/Projekt/Jak%20b%C4%99dzie%20wygl%C4%85da%C5%82%20projekt%2C%20nad%20czym%20b%C4%99dziemy%20pracowa%C4%87%20i%20jaki%20b%C4%99dzie%20efekt%20ko%C5%84cowy%20Organizacja%20pracy..pdf"  target="_blank" rel="noopener noreferrer"> Jak będzie wyglądał projekt, nad czym będziemy pracować i jaki będzie efekt końcowy? Organizacja pracy.</a></td>
     <td colspan="2"></td>
   </tr>
   <tr>
