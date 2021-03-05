@@ -30,15 +30,14 @@ Warszataty Badawcze składają się z:
   <tr>
     <td>2</td>
     <td>2021-03-04</td>
-    <td>Praktyczny wstęp do Machine Learning.</td>
-    <td>Teoretyczny wstęp do Machine Learning.</td>
+     <td colspan="2"><a href="https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Laboratoria/ML" target="_blank" rel="noopener noreferrer"> Teoretyczny i praktyczny wstęp do Machine Learning.</a></td>
     <td colspan="2"></td>
   </tr>
   <tr>
     <td>3</td>
     <td>2021-03-11</td>
     <td>Metoda Break Down oraz Shapley values.</td>
-    <td>Omówienie tematów projektów.</td>
+    <td>Prezentacja wybranych tematów projektów.</td>
     <td colspan="2"></td>
   </tr>
   <tr>
@@ -52,7 +51,7 @@ Warszataty Badawcze składają się z:
     <td>5</td>
     <td>2021-03-25</td>
     <td>Metoda LIME.</td>
-    <td>Prezentacja wybranych tematów projektów.</td>
+    <td>Prezentacja wytrenowanych modeli.</td>
     <td colspan="2"></td>
   </tr>
   <tr>
