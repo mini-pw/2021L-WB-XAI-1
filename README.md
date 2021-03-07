@@ -36,7 +36,7 @@ Warszataty Badawcze składają się z:
   <tr>
     <td>3</td>
     <td>2021-03-11</td>
-    <td>Metoda Break Down oraz Shapley values.</td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Laboratoria/Break%20Down%20%26%20Shapley%20values" target="_blank" rel="noopener noreferrer"> Metoda Break Down oraz Shapley values.</a></td>
     <td>Prezentacja wybranych tematów projektów.</td>
     <td colspan="2"></td>
   </tr>
