@@ -37,7 +37,7 @@ Warszataty Badawcze składają się z:
     <td>3</td>
     <td>2021-03-11</td>
     <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Laboratoria/Break%20Down%20%26%20Shapley%20values" target="_blank" rel="noopener noreferrer"> Metoda Break Down oraz Shapley values.</a></td>
-    <td>Prezentacja wybranych tematów projektów.</td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Projekt/EDA" target="_blank" rel="noopener noreferrer">  Prezentacja wybranych tematów projektów.</a></td>
     <td colspan="2"></td>
   </tr>
   <tr>
@@ -51,7 +51,7 @@ Warszataty Badawcze składają się z:
     <td>5</td>
     <td>2021-03-25</td>
     <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Laboratoria/LIME" target="_blank" rel="noopener noreferrer"> Metoda LIME.</a></td>
-    <td>Prezentacja wytrenowanych modeli.</td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Projekt/Modele" target="_blank" rel="noopener noreferrer">Prezentacja wytrenowanych modeli.</a></td>
     <td colspan="2"></td>
   </tr>
   <tr>
