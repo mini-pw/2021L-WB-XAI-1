@@ -44,7 +44,7 @@ Warszataty Badawcze składają się z:
     <td>4</td>
     <td>2021-03-18</td>
     <td>Omówienie pracy domowej 1.</td>
-    <td>Planowanie pracy nad projektem, jak efektywnie pracować w grupie, podział zadań i sposób weryfikacji rezultatów.</td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Projekt/Agile%26Scrum" target="_blank" rel="noopener noreferrer"> Planowanie pracy nad projektem, jak efektywnie pracować w grupie, podział zadań i sposób weryfikacji rezultatów.<a/></td>
     <td colspan="2">PD1 - 8 pkt.</td>
   </tr>
   <tr>
