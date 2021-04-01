@@ -157,9 +157,9 @@ Warszataty Badawcze składają się z:
 -   praca na laboratoriach (prace domowe) - 40 pkt.
 	- [praca domowa 1](https://github.com/mini-pw/2021L-WB-XAI-1/issues/7) [0-8 punktów]
 	- [praca domowa 2](https://github.com/mini-pw/2021L-WB-XAI-1/issues/17) [0-8 punktów]
-	- [praca domowa 3]() [0-8 punktów]
-	- [praca domowa 4]() [0-8 punktów]
-	- [praca domowa 5]() [0-8 punktów]
+	- [praca domowa 3](https://github.com/mini-pw/2021L-WB-XAI-1/issues/28) [0-8 punktów]
+	- [praca domowa 4](https://github.com/mini-pw/2021L-WB-XAI-1/issues/29) [0-8 punktów]
+	- [praca domowa 5](https://github.com/mini-pw/2021L-WB-XAI-1/issues/30) [0-8 punktów]
 
 
 | Ocena |  3 | 3.5 | 4 | 4.5 | 5 |
