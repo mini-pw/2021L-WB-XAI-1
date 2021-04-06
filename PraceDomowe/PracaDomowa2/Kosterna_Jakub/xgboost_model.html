@@ -14350,7 +14350,7 @@ a.anchor-link {
 <span class="n">randomized_mse</span> <span class="o">=</span> <span class="n">RandomizedSearchCV</span><span class="p">(</span><span class="n">param_distributions</span> <span class="o">=</span> <span class="n">xgb_param_grid</span><span class="p">,</span>
     <span class="n">estimator</span> <span class="o">=</span> <span class="n">xgb</span><span class="p">,</span>
     <span class="n">cv</span> <span class="o">=</span> <span class="mi">4</span><span class="p">,</span>
-    <span class="n">n_iter</span> <span class="o">=</span> <span class="mi">10</span><span class="p">)</span>
+    <span class="n">n_iter</span> <span class="o">=</span> <span class="mi">1000</span><span class="p">)</span>
 
 <span class="n">randomized_mse</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
 <span class="n">randomized_mse</span><span class="o">.</span><span class="n">best_params_</span>
