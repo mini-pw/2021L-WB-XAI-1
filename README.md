@@ -58,7 +58,7 @@ Warszataty Badawcze składają się z:
     <td>6</td>
     <td>2021-04-01</td>
     <td>Omówienie pracy domowej 2.</td>
-    <td>Tytuł, wstęp i literatura - czyli jak zacząć pisać raport końcowy.</td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Projekt/Literatura" target="_blank" rel="noopener noreferrer">Tytuł, wstęp i literatura - czyli jak zacząć pisać raport końcowy.</a></td>
     <td colspan="2">PD2 - 8 pkt.</td>
   </tr>
   <tr>
