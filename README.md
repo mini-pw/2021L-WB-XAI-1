@@ -64,8 +64,8 @@ Warszataty Badawcze składają się z:
   <tr>
     <td>7</td>
     <td>2021-04-08</td>
-    <td>Profile Ceteris Paribus.</td>
-    <td>Jak działa `bookdown`? - czyli tworzymy szablon swojego raportu końcowego.</td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Laboratoria/Ceteris%20Paribus" target="_blank" rel="noopener noreferrer"> Profile Ceteris Paribus.</a></td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/blob/main/Projekt/1-1-story.Rmd" target="_blank" rel="noopener noreferrer">Jak działa `bookdown`? - czyli tworzymy szablon swojego raportu końcowego.</a></td>
     <td colspan="2"></td>
   </tr>
   <tr>
