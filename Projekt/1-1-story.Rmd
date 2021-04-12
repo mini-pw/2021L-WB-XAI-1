@@ -1,0 +1,28 @@
+##  Report title {#xai1-explainable-wine}
+
+*Authors: Anna Kozak (Warsaw University of Technology)*
+
+
+### Introduction 
+
+Here is some introduction which is very interesting and invites the reader to read the article more.
+
+
+### Figure
+
+Let's add some picture.
+
+Filename for our group is "1-1-name.png".
+
+```{r pic-one, out.width="700", fig.align="center", echo=FALSE, fig.cap='Caption of figure.'}
+
+knitr::include_graphics('images/1-1-name.png')
+```
+
+Figure \@ref(fig:pic-one) is above.
+
+Reference to fantastic book [@EMA].
+
+How render book?
+
+bookdown::render_book(getwd())
