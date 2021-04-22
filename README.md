@@ -78,8 +78,8 @@ Warszataty Badawcze składają się z:
   <tr>
     <td>9</td>
     <td>2021-04-22</td>
-    <td>Permutacyjna ważność zmiennych.</td>
-    <td>Wyjaśnienia lokalne - prezentacje postępów nad projektem oraz dyskusja.</td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Laboratoria/Permutation-based%20variable-importance" target="_blank" rel="noopener noreferrer">Permutacyjna ważność zmiennych.</a></td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Projekt/Wyja%C5%9Bnienia%20lokalne" target="_blank" rel="noopener noreferrer">Wyjaśnienia lokalne - prezentacje postępów nad projektem oraz dyskusja.</a></td>
     <td colspan="2"></td>
   </tr>
   <tr>
