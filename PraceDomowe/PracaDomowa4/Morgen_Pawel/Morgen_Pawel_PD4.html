@@ -14513,7 +14513,7 @@ E:\anaconda\lib\site-packages\sklearn\base.py:310: UserWarning: Trying to unpick
   -&gt; target variable   : 19643 values
   -&gt; model_class       : xgboost.sklearn.XGBRegressor (default)
   -&gt; label             : XGBoost
-  -&gt; predict function  : &lt;function yhat_default at 0x000001922F3C1A60&gt; will be used (default)
+  -&gt; predict function  : &lt;function yhat_default at 0x000002BE7FFA0A60&gt; will be used (default)
   -&gt; predict function  : Accepts only pandas.DataFrame, numpy.ndarray causes problems.
   -&gt; predicted values  : min = 1.75e+04, mean = 1.92e+05, max = 4.89e+05
   -&gt; model type        : regression will be used (default)
@@ -14529,7 +14529,7 @@ Preparation of a new explainer is initiated
   -&gt; target variable   : 19643 values
   -&gt; model_class       : sklearn.svm._classes.LinearSVR (default)
   -&gt; label             : Support Vector Machine
-  -&gt; predict function  : &lt;function yhat_default at 0x000001922F3C1A60&gt; will be used (default)
+  -&gt; predict function  : &lt;function yhat_default at 0x000002BE7FFA0A60&gt; will be used (default)
   -&gt; predict function  : Accepts pandas.DataFrame and numpy.ndarray.
   -&gt; predicted values  : min = -2.7e+05, mean = 2.02e+05, max = 6.26e+05
   -&gt; model type        : regression will be used (default)
@@ -14545,7 +14545,7 @@ Preparation of a new explainer is initiated
   -&gt; target variable   : 19643 values
   -&gt; model_class       : sklearn.neural_network._multilayer_perceptron.MLPRegressor (default)
   -&gt; label             : Multilayer Perceptron
-  -&gt; predict function  : &lt;function yhat_default at 0x000001922F3C1A60&gt; will be used (default)
+  -&gt; predict function  : &lt;function yhat_default at 0x000002BE7FFA0A60&gt; will be used (default)
   -&gt; predict function  : Accepts pandas.DataFrame and numpy.ndarray.
   -&gt; predicted values  : min = 4.95e+04, mean = 1.93e+05, max = 6.08e+05
   -&gt; model type        : regression will be used (default)
@@ -14585,6 +14585,152 @@ A new explainer has been created!
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">xgb_fi</span><span class="o">.</span><span class="n">result</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[6]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>variable</th>
+      <th>dropout_loss</th>
+      <th>label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>NEAR OCEAN</td>
+      <td>34176.168806</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>_full_model_</td>
+      <td>34176.168806</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>1H OCEAN</td>
+      <td>34276.495024</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>NEAR BAY</td>
+      <td>34588.328313</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>INLAND</td>
+      <td>34977.125271</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>housing_median_age</td>
+      <td>38559.210129</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>longitude</td>
+      <td>41571.393180</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>latitude</td>
+      <td>42127.362431</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>total_bedrooms</td>
+      <td>42771.521212</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>rooms_per_household</td>
+      <td>42935.499744</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>households</td>
+      <td>46688.224538</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>population</td>
+      <td>49708.552566</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>median_income</td>
+      <td>88395.611889</td>
+      <td>XGBoost</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>_baseline_</td>
+      <td>110128.795589</td>
+      <td>XGBoost</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">xgb_fi</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
@@ -14694,9 +14840,9 @@ var n,i=t("./lib/build-log"),a=t("./lib/epsilon"),o=t("./lib/intersecter"),s=t("
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<div>                            <div id="3da23075-2411-465a-9151-338b928511ce" class="plotly-graph-div" style="height:383.0px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("3da23075-2411-465a-9151-338b928511ce")) {                    Plotly.newPlot(                        "3da23075-2411-465a-9151-338b928511ce",                        [{"base": 34176.16880570702, "hoverinfo": "text", "hoverlabel": {"bgcolor": "rgba(0,0,0,0.8)"}, "hovertext": ["Model: XGBoost loss after<br>variable: median_income is permuted: 87802.99<br>Drop-out loss change: +53626.822", "Model: XGBoost loss after<br>variable: population is permuted: 49735.479<br>Drop-out loss change: +15559.31", "Model: XGBoost loss after<br>variable: households is permuted: 46317.066<br>Drop-out loss change: +12140.897", "Model: XGBoost loss after<br>variable: rooms_per_household is permuted: 43314.195<br>Drop-out loss change: +9138.026", "Model: XGBoost loss after<br>variable: total_bedrooms is permuted: 42361.651<br>Drop-out loss change: +8185.483", "Model: XGBoost loss after<br>variable: latitude is permuted: 42177.417<br>Drop-out loss change: +8001.248", "Model: XGBoost loss after<br>variable: longitude is permuted: 41439.392<br>Drop-out loss change: +7263.223", "Model: XGBoost loss after<br>variable: housing_median_age is permuted: 38892.507<br>Drop-out loss change: +4716.338", "Model: XGBoost loss after<br>variable: INLAND is permuted: 35163.027<br>Drop-out loss change: +986.858", "Model: XGBoost loss after<br>variable: NEAR BAY is permuted: 34595.076<br>Drop-out loss change: +418.908"], "marker": {"color": "#46bac2"}, "orientation": "h", "showlegend": false, "text": ["+53626.822", "+15559.31", "+12140.897", "+9138.026", "+8185.483", "+8001.248", "+7263.223", "+4716.338", "+986.858", "+418.908"], "textposition": "outside", "type": "bar", "x": [53626.821504089436, 15559.310333395464, 12140.89708057676, 9138.026144300522, 8185.4826417261065, 8001.24845342795, 7263.223298531273, 4716.337929317349, 986.8577268982626, 418.90755249255017], "xaxis": "x", "y": ["median_income", "population", "households", "rooms_per_household", "total_bedrooms", "latitude", "longitude", "housing_median_age", "INLAND", "NEAR BAY"], "yaxis": "y"}],                        {"annotations": [{"font": {"size": 16}, "showarrow": false, "text": "XGBoost", "x": 0.5, "xanchor": "center", "xref": "paper", "y": 1.0, "yanchor": "bottom", "yref": "paper"}, {"font": {"size": 16}, "showarrow": false, "text": "drop-out loss", "x": 0.5, "xanchor": "center", "xref": "paper", "y": 0, "yanchor": "top", "yref": "paper", "yshift": -30}], "font": {"color": "#371ea3"}, "height": 383.0, "margin": {"b": 71, "r": 30, "t": 78}, "shapes": [{"line": {"color": "#371ea3", "dash": "dot", "width": 1.5}, "type": "line", "x0": 34176.16880570702, "x1": 34176.16880570702, "xref": "x", "y0": -1, "y1": 10, "yref": "y"}], "template": {"data": {"scatter": [{"type": "scatter"}]}}, "title": {"text": "Variable Importance", "x": 0.15}, "xaxis": {"anchor": "y", "automargin": true, "domain": [0.0, 1.0], "fixedrange": true, "gridwidth": 2, "range": [26132.145580093606, 95847.01353540987], "tickcolor": "white", "ticklen": 3, "ticks": "outside", "type": "linear", "zeroline": false}, "yaxis": {"anchor": "x", "automargin": true, "autorange": "reversed", "domain": [0.0, 1.0], "fixedrange": true, "gridwidth": 2, "tickcolor": "white", "ticklen": 10, "ticks": "outside", "type": "category"}},                        {"displaylogo": false, "staticPlot": false, "toImageButtonOptions": {"height": null, "width": null}, "modeBarButtonsToRemove": ["sendDataToCloud", "lasso2d", "autoScale2d", "select2d", "zoom2d", "pan2d", "zoomIn2d", "zoomOut2d", "resetScale2d", "toggleSpikelines", "hoverCompareCartesian", "hoverClosestCartesian"], "responsive": true}                    ).then(function(){
+<div>                            <div id="a68823ac-c3fb-4b75-a505-17218d429600" class="plotly-graph-div" style="height:383.0px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("a68823ac-c3fb-4b75-a505-17218d429600")) {                    Plotly.newPlot(                        "a68823ac-c3fb-4b75-a505-17218d429600",                        [{"base": 34176.16880570702, "hoverinfo": "text", "hoverlabel": {"bgcolor": "rgba(0,0,0,0.8)"}, "hovertext": ["Model: XGBoost loss after<br>variable: median_income is permuted: 88395.612<br>Drop-out loss change: +54219.443", "Model: XGBoost loss after<br>variable: population is permuted: 49708.553<br>Drop-out loss change: +15532.384", "Model: XGBoost loss after<br>variable: households is permuted: 46688.225<br>Drop-out loss change: +12512.056", "Model: XGBoost loss after<br>variable: rooms_per_household is permuted: 42935.5<br>Drop-out loss change: +8759.331", "Model: XGBoost loss after<br>variable: total_bedrooms is permuted: 42771.521<br>Drop-out loss change: +8595.352", "Model: XGBoost loss after<br>variable: latitude is permuted: 42127.362<br>Drop-out loss change: +7951.194", "Model: XGBoost loss after<br>variable: longitude is permuted: 41571.393<br>Drop-out loss change: +7395.224", "Model: XGBoost loss after<br>variable: housing_median_age is permuted: 38559.21<br>Drop-out loss change: +4383.041", "Model: XGBoost loss after<br>variable: INLAND is permuted: 34977.125<br>Drop-out loss change: +800.956", "Model: XGBoost loss after<br>variable: NEAR BAY is permuted: 34588.328<br>Drop-out loss change: +412.16"], "marker": {"color": "#46bac2"}, "orientation": "h", "showlegend": false, "text": ["+54219.443", "+15532.384", "+12512.056", "+8759.331", "+8595.352", "+7951.194", "+7395.224", "+4383.041", "+800.956", "+412.16"], "textposition": "outside", "type": "bar", "x": [54219.4430830353, 15532.383760316581, 12512.05573223086, 8759.330938425293, 8595.35240662095, 7951.193625281689, 7395.224374138248, 4383.04132376318, 800.9564648865125, 412.1595075345904], "xaxis": "x", "y": ["median_income", "population", "households", "rooms_per_household", "total_bedrooms", "latitude", "longitude", "housing_median_age", "INLAND", "NEAR BAY"], "yaxis": "y"}],                        {"annotations": [{"font": {"size": 16}, "showarrow": false, "text": "XGBoost", "x": 0.5, "xanchor": "center", "xref": "paper", "y": 1.0, "yanchor": "bottom", "yref": "paper"}, {"font": {"size": 16}, "showarrow": false, "text": "drop-out loss", "x": 0.5, "xanchor": "center", "xref": "paper", "y": 0, "yanchor": "top", "yref": "paper", "yshift": -30}], "font": {"color": "#371ea3"}, "height": 383.0, "margin": {"b": 71, "r": 30, "t": 78}, "shapes": [{"line": {"color": "#371ea3", "dash": "dot", "width": 1.5}, "type": "line", "x0": 34176.16880570702, "x1": 34176.16880570702, "xref": "x", "y0": -1, "y1": 10, "yref": "y"}], "template": {"data": {"scatter": [{"type": "scatter"}]}}, "title": {"text": "Variable Importance", "x": 0.15}, "xaxis": {"anchor": "y", "automargin": true, "domain": [0.0, 1.0], "fixedrange": true, "gridwidth": 2, "range": [26043.252343251726, 96528.52835119762], "tickcolor": "white", "ticklen": 3, "ticks": "outside", "type": "linear", "zeroline": false}, "yaxis": {"anchor": "x", "automargin": true, "autorange": "reversed", "domain": [0.0, 1.0], "fixedrange": true, "gridwidth": 2, "tickcolor": "white", "ticklen": 10, "ticks": "outside", "type": "category"}},                        {"displaylogo": false, "staticPlot": false, "toImageButtonOptions": {"height": null, "width": null}, "modeBarButtonsToRemove": ["sendDataToCloud", "lasso2d", "autoScale2d", "select2d", "zoom2d", "pan2d", "zoomIn2d", "zoomOut2d", "resetScale2d", "toggleSpikelines", "hoverCompareCartesian", "hoverClosestCartesian"], "responsive": true}                    ).then(function(){
                             
-var gd = document.getElementById('3da23075-2411-465a-9151-338b928511ce');
+var gd = document.getElementById('a68823ac-c3fb-4b75-a505-17218d429600');
 var x = new MutationObserver(function (mutations, observer) {{
         var display = window.getComputedStyle(gd).display;
         if (!display || display === 'none') {{
@@ -14741,7 +14887,7 @@ if (outputEl) {{
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">svr_fi</span> <span class="o">=</span> <span class="n">expl_svr</span><span class="o">.</span><span class="n">model_parts</span><span class="p">()</span>
@@ -14756,7 +14902,7 @@ if (outputEl) {{
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">xgb_fi</span><span class="o">.</span><span class="n">plot</span><span class="p">([</span><span class="n">svr_fi</span><span class="p">,</span> <span class="n">mlp_fi</span><span class="p">])</span>
@@ -14780,9 +14926,9 @@ if (outputEl) {{
 
 
 <div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<div>                            <div id="86c3f7ed-dfa1-494c-95a3-c0e1796f538c" class="plotly-graph-div" style="height:991.0px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("86c3f7ed-dfa1-494c-95a3-c0e1796f538c")) {                    Plotly.newPlot(                        "86c3f7ed-dfa1-494c-95a3-c0e1796f538c",                        [{"base": 34176.16880570702, "hoverinfo": "text", "hoverlabel": {"bgcolor": "rgba(0,0,0,0.8)"}, "hovertext": ["Model: XGBoost loss after<br>variable: median_income is permuted: 87802.99<br>Drop-out loss change: +53626.822", "Model: XGBoost loss after<br>variable: households is permuted: 46317.066<br>Drop-out loss change: +12140.897", "Model: XGBoost loss after<br>variable: population is permuted: 49735.479<br>Drop-out loss change: +15559.31", "Model: XGBoost loss after<br>variable: housing_median_age is permuted: 38892.507<br>Drop-out loss change: +4716.338", "Model: XGBoost loss after<br>variable: rooms_per_household is permuted: 43314.195<br>Drop-out loss change: +9138.026", "Model: XGBoost loss after<br>variable: total_bedrooms is permuted: 42361.651<br>Drop-out loss change: +8185.483", "Model: XGBoost loss after<br>variable: latitude is permuted: 42177.417<br>Drop-out loss change: +8001.248", "Model: XGBoost loss after<br>variable: longitude is permuted: 41439.392<br>Drop-out loss change: +7263.223", "Model: XGBoost loss after<br>variable: INLAND is permuted: 35163.027<br>Drop-out loss change: +986.858", "Model: XGBoost loss after<br>variable: NEAR BAY is permuted: 34595.076<br>Drop-out loss change: +418.908"], "marker": {"color": "#8bdcbe"}, "orientation": "h", "showlegend": false, "text": ["+53626.822", "+12140.897", "+15559.31", "+4716.338", "+9138.026", "+8185.483", "+8001.248", "+7263.223", "+986.858", "+418.908"], "textposition": "outside", "type": "bar", "x": [53626.821504089436, 12140.89708057676, 15559.310333395464, 4716.337929317349, 9138.026144300522, 8185.4826417261065, 8001.24845342795, 7263.223298531273, 986.8577268982626, 418.90755249255017], "xaxis": "x", "y": ["median_income", "households", "population", "housing_median_age", "rooms_per_household", "total_bedrooms", "latitude", "longitude", "INLAND", "NEAR BAY"], "yaxis": "y"}, {"base": 56917.68740619127, "hoverinfo": "text", "hoverlabel": {"bgcolor": "rgba(0,0,0,0.8)"}, "hovertext": ["Model: Support Vector Machine loss after<br>variable: median_income is permuted: 107722.617<br>Drop-out loss change: +50804.929", "Model: Support Vector Machine loss after<br>variable: households is permuted: 80359.065<br>Drop-out loss change: +23441.378", "Model: Support Vector Machine loss after<br>variable: population is permuted: 80024.923<br>Drop-out loss change: +23107.236", "Model: Support Vector Machine loss after<br>variable: housing_median_age is permuted: 59218.296<br>Drop-out loss change: +2300.609", "Model: Support Vector Machine loss after<br>variable: rooms_per_household is permuted: 56889.026<br>Drop-out loss change: -28.662", "Model: Support Vector Machine loss after<br>variable: latitude is permuted: 56882.758<br>Drop-out loss change: -34.93", "Model: Support Vector Machine loss after<br>variable: longitude is permuted: 56915.798<br>Drop-out loss change: -1.89", "Model: Support Vector Machine loss after<br>variable: 1H OCEAN is permuted: 57047.17<br>Drop-out loss change: +129.483", "Model: Support Vector Machine loss after<br>variable: NEAR OCEAN is permuted: 56917.687<br>Drop-out loss change: -0.0", "Model: Support Vector Machine loss after<br>variable: NEAR BAY is permuted: 56790.327<br>Drop-out loss change: -127.361"], "marker": {"color": "#4378bf"}, "orientation": "h", "showlegend": false, "text": ["+50804.929", "+23441.378", "+23107.236", "+2300.609", "28.662", "34.93", "1.89", "+129.483", "0.0", "127.361"], "textposition": "outside", "type": "bar", "x": [50804.929242091195, 23441.37778816992, 23107.23552011435, 2300.6087028715847, -28.66161702226964, -34.92952001695812, -1.8895505412074272, 129.4827483064946, 0.0, -127.36076278161636], "xaxis": "x2", "y": ["median_income", "households", "population", "housing_median_age", "rooms_per_household", "latitude", "longitude", "1H OCEAN", "NEAR OCEAN", "NEAR BAY"], "yaxis": "y2"}, {"base": 56965.67631317144, "hoverinfo": "text", "hoverlabel": {"bgcolor": "rgba(0,0,0,0.8)"}, "hovertext": ["Model: Multilayer Perceptron loss after<br>variable: median_income is permuted: 114591.145<br>Drop-out loss change: +57625.469", "Model: Multilayer Perceptron loss after<br>variable: households is permuted: 146502.82<br>Drop-out loss change: +89537.144", "Model: Multilayer Perceptron loss after<br>variable: population is permuted: 124227.964<br>Drop-out loss change: +67262.288", "Model: Multilayer Perceptron loss after<br>variable: housing_median_age is permuted: 59516.922<br>Drop-out loss change: +2551.246", "Model: Multilayer Perceptron loss after<br>variable: rooms_per_household is permuted: 57053.464<br>Drop-out loss change: +87.787", "Model: Multilayer Perceptron loss after<br>variable: total_bedrooms is permuted: 58129.411<br>Drop-out loss change: +1163.735", "Model: Multilayer Perceptron loss after<br>variable: latitude is permuted: 57003.943<br>Drop-out loss change: +38.267", "Model: Multilayer Perceptron loss after<br>variable: longitude is permuted: 56937.414<br>Drop-out loss change: -28.262", "Model: Multilayer Perceptron loss after<br>variable: 1H OCEAN is permuted: 59305.206<br>Drop-out loss change: +2339.529", "Model: Multilayer Perceptron loss after<br>variable: NEAR OCEAN is permuted: 56965.676<br>Drop-out loss change: -0.0"], "marker": {"color": "#46bac2"}, "orientation": "h", "showlegend": false, "text": ["+57625.469", "+89537.144", "+67262.288", "+2551.246", "+87.787", "+1163.735", "+38.267", "28.262", "+2339.529", "0.0"], "textposition": "outside", "type": "bar", "x": [57625.46904268507, 89537.14352633806, 67262.2877159097, 2551.245579310431, 87.78736301939352, 1163.734688319295, 38.267052301438525, -28.26202280814323, 2339.5294146892993, 0.0], "xaxis": "x3", "y": ["median_income", "households", "population", "housing_median_age", "rooms_per_household", "total_bedrooms", "latitude", "longitude", "1H OCEAN", "NEAR OCEAN"], "yaxis": "y3"}],                        {"annotations": [{"font": {"size": 16}, "showarrow": false, "text": "XGBoost", "x": 0.5, "xanchor": "center", "xref": "paper", "y": 1.0, "yanchor": "bottom", "yref": "paper"}, {"font": {"size": 16}, "showarrow": false, "text": "Support Vector Machine", "x": 0.5, "xanchor": "center", "xref": "paper", "y": 0.6444444444444445, "yanchor": "bottom", "yref": "paper"}, {"font": {"size": 16}, "showarrow": false, "text": "Multilayer Perceptron", "x": 0.5, "xanchor": "center", "xref": "paper", "y": 0.2888888888888889, "yanchor": "bottom", "yref": "paper"}, {"font": {"size": 16}, "showarrow": false, "text": "drop-out loss", "x": 0.5, "xanchor": "center", "xref": "paper", "y": 0, "yanchor": "top", "yref": "paper", "yshift": -30}], "font": {"color": "#371ea3"}, "height": 991.0, "margin": {"b": 71, "r": 30, "t": 78}, "shapes": [{"line": {"color": "#371ea3", "dash": "dot", "width": 1.5}, "type": "line", "x0": 34176.16880570702, "x1": 34176.16880570702, "xref": "x", "y0": -1, "y1": 10, "yref": "y"}, {"line": {"color": "#371ea3", "dash": "dot", "width": 1.5}, "type": "line", "x0": 56917.68740619127, "x1": 56917.68740619127, "xref": "x2", "y0": -1, "y1": 10, "yref": "y2"}, {"line": {"color": "#371ea3", "dash": "dot", "width": 1.5}, "type": "line", "x0": 56965.67631317144, "x1": 56965.67631317144, "xref": "x3", "y0": -1, "y1": 10, "yref": "y3"}], "template": {"data": {"scatter": [{"type": "scatter"}]}}, "title": {"text": "Variable Importance", "x": 0.15}, "xaxis": {"anchor": "y", "automargin": true, "domain": [0.0, 1.0], "fixedrange": true, "gridwidth": 2, "matches": "x3", "range": [17327.17115063665, 163351.81749457988], "showticklabels": false, "tickcolor": "white", "ticklen": 3, "ticks": "outside", "type": "linear", "zeroline": false}, "xaxis2": {"anchor": "y2", "automargin": true, "domain": [0.0, 1.0], "fixedrange": true, "gridwidth": 2, "matches": "x3", "range": [17327.17115063665, 163351.81749457988], "showticklabels": false, "tickcolor": "white", "ticklen": 3, "ticks": "outside", "type": "linear", "zeroline": false}, "xaxis3": {"anchor": "y3", "automargin": true, "domain": [0.0, 1.0], "fixedrange": true, "gridwidth": 2, "range": [17327.17115063665, 163351.81749457988], "tickcolor": "white", "ticklen": 3, "ticks": "outside", "type": "linear", "zeroline": false}, "yaxis": {"anchor": "x", "automargin": true, "autorange": "reversed", "domain": [0.7111111111111111, 1.0], "fixedrange": true, "gridwidth": 2, "tickcolor": "white", "ticklen": 10, "ticks": "outside", "type": "category"}, "yaxis2": {"anchor": "x2", "automargin": true, "autorange": "reversed", "domain": [0.35555555555555557, 0.6444444444444445], "fixedrange": true, "gridwidth": 2, "tickcolor": "white", "ticklen": 10, "ticks": "outside", "type": "category"}, "yaxis3": {"anchor": "x3", "automargin": true, "autorange": "reversed", "domain": [0.0, 0.2888888888888889], "fixedrange": true, "gridwidth": 2, "tickcolor": "white", "ticklen": 10, "ticks": "outside", "type": "category"}},                        {"displaylogo": false, "staticPlot": false, "toImageButtonOptions": {"height": null, "width": null}, "modeBarButtonsToRemove": ["sendDataToCloud", "lasso2d", "autoScale2d", "select2d", "zoom2d", "pan2d", "zoomIn2d", "zoomOut2d", "resetScale2d", "toggleSpikelines", "hoverCompareCartesian", "hoverClosestCartesian"], "responsive": true}                    ).then(function(){
+<div>                            <div id="c29abd85-c8d6-4168-b517-98d38c28a2ec" class="plotly-graph-div" style="height:991.0px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("c29abd85-c8d6-4168-b517-98d38c28a2ec")) {                    Plotly.newPlot(                        "c29abd85-c8d6-4168-b517-98d38c28a2ec",                        [{"base": 34176.16880570702, "hoverinfo": "text", "hoverlabel": {"bgcolor": "rgba(0,0,0,0.8)"}, "hovertext": ["Model: XGBoost loss after<br>variable: median_income is permuted: 88395.612<br>Drop-out loss change: +54219.443", "Model: XGBoost loss after<br>variable: households is permuted: 46688.225<br>Drop-out loss change: +12512.056", "Model: XGBoost loss after<br>variable: population is permuted: 49708.553<br>Drop-out loss change: +15532.384", "Model: XGBoost loss after<br>variable: housing_median_age is permuted: 38559.21<br>Drop-out loss change: +4383.041", "Model: XGBoost loss after<br>variable: total_bedrooms is permuted: 42771.521<br>Drop-out loss change: +8595.352", "Model: XGBoost loss after<br>variable: rooms_per_household is permuted: 42935.5<br>Drop-out loss change: +8759.331", "Model: XGBoost loss after<br>variable: latitude is permuted: 42127.362<br>Drop-out loss change: +7951.194", "Model: XGBoost loss after<br>variable: longitude is permuted: 41571.393<br>Drop-out loss change: +7395.224", "Model: XGBoost loss after<br>variable: NEAR BAY is permuted: 34588.328<br>Drop-out loss change: +412.16", "Model: XGBoost loss after<br>variable: INLAND is permuted: 34977.125<br>Drop-out loss change: +800.956"], "marker": {"color": "#8bdcbe"}, "orientation": "h", "showlegend": false, "text": ["+54219.443", "+12512.056", "+15532.384", "+4383.041", "+8595.352", "+8759.331", "+7951.194", "+7395.224", "+412.16", "+800.956"], "textposition": "outside", "type": "bar", "x": [54219.4430830353, 12512.05573223086, 15532.383760316581, 4383.04132376318, 8595.35240662095, 8759.330938425293, 7951.193625281689, 7395.224374138248, 412.1595075345904, 800.9564648865125], "xaxis": "x", "y": ["median_income", "households", "population", "housing_median_age", "total_bedrooms", "rooms_per_household", "latitude", "longitude", "NEAR BAY", "INLAND"], "yaxis": "y"}, {"base": 56917.68740619127, "hoverinfo": "text", "hoverlabel": {"bgcolor": "rgba(0,0,0,0.8)"}, "hovertext": ["Model: Support Vector Machine loss after<br>variable: median_income is permuted: 107248.984<br>Drop-out loss change: +50331.296", "Model: Support Vector Machine loss after<br>variable: households is permuted: 79815.839<br>Drop-out loss change: +22898.151", "Model: Support Vector Machine loss after<br>variable: population is permuted: 79798.333<br>Drop-out loss change: +22880.645", "Model: Support Vector Machine loss after<br>variable: housing_median_age is permuted: 59547.996<br>Drop-out loss change: +2630.309", "Model: Support Vector Machine loss after<br>variable: rooms_per_household is permuted: 56890.448<br>Drop-out loss change: -27.239", "Model: Support Vector Machine loss after<br>variable: latitude is permuted: 56882.216<br>Drop-out loss change: -35.471", "Model: Support Vector Machine loss after<br>variable: longitude is permuted: 56917.571<br>Drop-out loss change: -0.117", "Model: Support Vector Machine loss after<br>variable: 1H OCEAN is permuted: 56966.372<br>Drop-out loss change: +48.684", "Model: Support Vector Machine loss after<br>variable: NEAR OCEAN is permuted: 56917.687<br>Drop-out loss change: -0.0", "Model: Support Vector Machine loss after<br>variable: NEAR BAY is permuted: 56794.459<br>Drop-out loss change: -123.229"], "marker": {"color": "#4378bf"}, "orientation": "h", "showlegend": false, "text": ["+50331.296", "+22898.151", "+22880.645", "+2630.309", "27.239", "35.471", "0.117", "+48.684", "0.0", "123.229"], "textposition": "outside", "type": "bar", "x": [50331.2964606273, 22898.151128449885, 22880.645339335853, 2630.3086157427024, -27.23938816430018, -35.471195682337566, -0.11669219785835594, 48.684166500017454, 0.0, -123.22852002910076], "xaxis": "x2", "y": ["median_income", "households", "population", "housing_median_age", "rooms_per_household", "latitude", "longitude", "1H OCEAN", "NEAR OCEAN", "NEAR BAY"], "yaxis": "y2"}, {"base": 56965.67631317144, "hoverinfo": "text", "hoverlabel": {"bgcolor": "rgba(0,0,0,0.8)"}, "hovertext": ["Model: Multilayer Perceptron loss after<br>variable: median_income is permuted: 114531.557<br>Drop-out loss change: +57565.881", "Model: Multilayer Perceptron loss after<br>variable: households is permuted: 147011.846<br>Drop-out loss change: +90046.17", "Model: Multilayer Perceptron loss after<br>variable: population is permuted: 123436.48<br>Drop-out loss change: +66470.804", "Model: Multilayer Perceptron loss after<br>variable: housing_median_age is permuted: 59413.996<br>Drop-out loss change: +2448.32", "Model: Multilayer Perceptron loss after<br>variable: total_bedrooms is permuted: 58150.48<br>Drop-out loss change: +1184.803", "Model: Multilayer Perceptron loss after<br>variable: rooms_per_household is permuted: 57042.467<br>Drop-out loss change: +76.791", "Model: Multilayer Perceptron loss after<br>variable: latitude is permuted: 57000.204<br>Drop-out loss change: +34.528", "Model: Multilayer Perceptron loss after<br>variable: longitude is permuted: 56939.118<br>Drop-out loss change: -26.558", "Model: Multilayer Perceptron loss after<br>variable: 1H OCEAN is permuted: 59303.249<br>Drop-out loss change: +2337.573", "Model: Multilayer Perceptron loss after<br>variable: NEAR OCEAN is permuted: 56965.676<br>Drop-out loss change: -0.0"], "marker": {"color": "#46bac2"}, "orientation": "h", "showlegend": false, "text": ["+57565.881", "+90046.17", "+66470.804", "+2448.32", "+1184.803", "+76.791", "+34.528", "26.558", "+2337.573", "0.0"], "textposition": "outside", "type": "bar", "x": [57565.88098384657, 90046.16974496366, 66470.8037897194, 2448.31975014614, 1184.8032435878922, 76.79078003012546, 34.527644882458844, -26.55790366922156, 2337.572970251953, 0.0], "xaxis": "x3", "y": ["median_income", "households", "population", "housing_median_age", "total_bedrooms", "rooms_per_household", "latitude", "longitude", "1H OCEAN", "NEAR OCEAN"], "yaxis": "y3"}],                        {"annotations": [{"font": {"size": 16}, "showarrow": false, "text": "XGBoost", "x": 0.5, "xanchor": "center", "xref": "paper", "y": 1.0, "yanchor": "bottom", "yref": "paper"}, {"font": {"size": 16}, "showarrow": false, "text": "Support Vector Machine", "x": 0.5, "xanchor": "center", "xref": "paper", "y": 0.6444444444444445, "yanchor": "bottom", "yref": "paper"}, {"font": {"size": 16}, "showarrow": false, "text": "Multilayer Perceptron", "x": 0.5, "xanchor": "center", "xref": "paper", "y": 0.2888888888888889, "yanchor": "bottom", "yref": "paper"}, {"font": {"size": 16}, "showarrow": false, "text": "drop-out loss", "x": 0.5, "xanchor": "center", "xref": "paper", "y": 0, "yanchor": "top", "yref": "paper", "yshift": -30}], "font": {"color": "#371ea3"}, "height": 991.0, "margin": {"b": 71, "r": 30, "t": 78}, "shapes": [{"line": {"color": "#371ea3", "dash": "dot", "width": 1.5}, "type": "line", "x0": 34176.16880570702, "x1": 34176.16880570702, "xref": "x", "y0": -1, "y1": 10, "yref": "y"}, {"line": {"color": "#371ea3", "dash": "dot", "width": 1.5}, "type": "line", "x0": 56917.68740619127, "x1": 56917.68740619127, "xref": "x2", "y0": -1, "y1": 10, "yref": "y2"}, {"line": {"color": "#371ea3", "dash": "dot", "width": 1.5}, "type": "line", "x0": 56965.67631317144, "x1": 56965.67631317144, "xref": "x3", "y0": -1, "y1": 10, "yref": "y3"}], "template": {"data": {"scatter": [{"type": "scatter"}]}}, "title": {"text": "Variable Importance", "x": 0.15}, "xaxis": {"anchor": "y", "automargin": true, "domain": [0.0, 1.0], "fixedrange": true, "gridwidth": 2, "matches": "x3", "range": [17250.81721784281, 163937.19764599932], "showticklabels": false, "tickcolor": "white", "ticklen": 3, "ticks": "outside", "type": "linear", "zeroline": false}, "xaxis2": {"anchor": "y2", "automargin": true, "domain": [0.0, 1.0], "fixedrange": true, "gridwidth": 2, "matches": "x3", "range": [17250.81721784281, 163937.19764599932], "showticklabels": false, "tickcolor": "white", "ticklen": 3, "ticks": "outside", "type": "linear", "zeroline": false}, "xaxis3": {"anchor": "y3", "automargin": true, "domain": [0.0, 1.0], "fixedrange": true, "gridwidth": 2, "range": [17250.81721784281, 163937.19764599932], "tickcolor": "white", "ticklen": 3, "ticks": "outside", "type": "linear", "zeroline": false}, "yaxis": {"anchor": "x", "automargin": true, "autorange": "reversed", "domain": [0.7111111111111111, 1.0], "fixedrange": true, "gridwidth": 2, "tickcolor": "white", "ticklen": 10, "ticks": "outside", "type": "category"}, "yaxis2": {"anchor": "x2", "automargin": true, "autorange": "reversed", "domain": [0.35555555555555557, 0.6444444444444445], "fixedrange": true, "gridwidth": 2, "tickcolor": "white", "ticklen": 10, "ticks": "outside", "type": "category"}, "yaxis3": {"anchor": "x3", "automargin": true, "autorange": "reversed", "domain": [0.0, 0.2888888888888889], "fixedrange": true, "gridwidth": 2, "tickcolor": "white", "ticklen": 10, "ticks": "outside", "type": "category"}},                        {"displaylogo": false, "staticPlot": false, "toImageButtonOptions": {"height": null, "width": null}, "modeBarButtonsToRemove": ["sendDataToCloud", "lasso2d", "autoScale2d", "select2d", "zoom2d", "pan2d", "zoomIn2d", "zoomOut2d", "resetScale2d", "toggleSpikelines", "hoverCompareCartesian", "hoverClosestCartesian"], "responsive": true}                    ).then(function(){
                             
-var gd = document.getElementById('86c3f7ed-dfa1-494c-95a3-c0e1796f538c');
+var gd = document.getElementById('c29abd85-c8d6-4168-b517-98d38c28a2ec');
 var x = new MutationObserver(function (mutations, observer) {{
         var display = window.getComputedStyle(gd).display;
         if (!display || display === 'none') {{
