@@ -86,7 +86,7 @@ Warszataty Badawcze składają się z:
     <td>10</td>
     <td>2021-04-29</td>
     <td>Omówienie pracy domowej 4.</td>
-    <td>Jak przygotować dobrą prezentację z wynikami projektu?</td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/blob/main/Projekt/Przyk%C5%82ad%20prezentacji%20wynik%C3%B3w..pdf" target="_blank" rel="noopener noreferrer">Jak przygotować dobrą prezentację z wynikami projektu?</a></td>
     <td colspan="2">PD4 - 8 pkt.</td>
   </tr>
   <tr>
