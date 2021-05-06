@@ -92,7 +92,7 @@ Warszataty Badawcze składają się z:
   <tr>
     <td>11</td>
     <td>2021-05-06</td>
-    <td>Profile PD i ALE.</td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Laboratoria/PDP%26ALE/fig" target="_blank" rel="noopener noreferrer">Profile PD i ALE.</a></td>
     <td>Jak napisać dobre podsumowanie raportu?</td>
     <td colspan="2"></td>
   </tr>
