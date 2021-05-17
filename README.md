@@ -100,7 +100,7 @@ Warszataty Badawcze składają się z:
     <td>12</td>
     <td>2021-05-13</td>
     <td>Omówienie pracy domowej 5.</td>
-    <td>Wyjaśnienia globalne - prezentacje postępów nad projektem oraz dyskusja.</td>
+    <td><a href="https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Projekt/Wyja%C5%9Bnienia%20globalne" target="_blank" rel="noopener noreferrer"> Wyjaśnienia globalne - prezentacje postępów nad projektem oraz dyskusja.</a></td>
     <td colspan="2">PD5 - 8 pkt.</td>
   </tr>
   <tr>
