@@ -124,7 +124,7 @@ Warszataty Badawcze składają się z:
   </tr>
   <tr>
     <td>14</td>
-    <td>2021-05-27</td>
+    <td>2021-05-28</td>
     <td colspan="2">Dyskusja na temat projektów - podsumowanie/uwagi/co możemy poprawić, aby nasz raport był jeszcze lepszy?</td>
     <td colspan="2"></td>
   </tr>
