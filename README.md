@@ -9,7 +9,7 @@ Warszataty Badawcze składają się z:
  - [zajęć laboratoryjnych](https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Laboratoria)
  - [zajęć projektowych](https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Projekt)
 
-#### [WB-Book](https://mini-pw.github.io/2021L-WB-Book/)
+### [WB-Book](https://mini-pw.github.io/2021L-WB-Book/)
 
 ### Terminy i tematy zajęć 
 
