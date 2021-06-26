@@ -1,11 +1,15 @@
 ## Warsztaty Badawcze - grupa 2021L-WB-XAI-1
 
+[@kozaka93](https://github.com/kozaka93)
+
 Celem warsztatów jest poznanie sposobów komunikacji naukowej (artykuły, czasopisma, konferencje, prezentacje). Tematem zajęć jest wyjaśnialne uczenie maszynowe (eXplainable Artificial Intelligence), podczas laboratorium poznamy metody i techniki wyjaśnień, a następnie zaaplikujemy je do rozwiązania problemów przedstawionych podczas zajęć projektowych.
 
 Warszataty Badawcze składają się z:
  - [wykładu](https://github.com/mini-pw/2021L-WarsztatyBadawcze)
  - [zajęć laboratoryjnych](https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Laboratoria)
  - [zajęć projektowych](https://github.com/mini-pw/2021L-WB-XAI-1/tree/main/Projekt)
+
+#### [WB-Book](https://mini-pw.github.io/2021L-WB-Book/)
 
 ### Terminy i tematy zajęć 
 
